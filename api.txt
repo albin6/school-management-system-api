@@ -1,0 +1,11 @@
+API Endpoints
+-------------
+POST /students: Create a new student.
+GET /students/:id: Get student details by ID.
+PUT /students/:id: Update student details.
+DELETE /students/:id: Delete a student.
+POST /courses: Create a new course.
+GET /courses/:id: Get course details by ID.
+POST /courses/:id/enroll: Enroll a student in a course.
+POST /teachers: Add a new teacher.
+POST /teachers/:id/assign-course: Assign a teacher to a course.
